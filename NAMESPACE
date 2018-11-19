@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+import(gRbase,mvtnorm,igraph,parallel)
+importFrom("graphics", "plot")
+importFrom(stats, "quantile","na.omit", "rnorm", "sd")
